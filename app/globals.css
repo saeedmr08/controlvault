@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Georgia, serif;
+  background: #f7f1e6;
+  color: #2b2418;
+}
+
+.wrap {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 20px 64px;
+}
+
+.eyebrow {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a5a2b;
+  font-size: 0.75rem;
+  margin: 0;
+}
+
+h1 {
+  margin: 0.2rem 0 0.5rem;
+}
+
+.lede {
+  color: #5b5144;
+  line-height: 1.45;
+}
+
+.create {
+  display: grid;
+  gap: 8px;
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  margin: 18px 0;
+}
+
+.create h2 {
+  margin: 0 0 4px;
+  font-size: 1rem;
+}
+
+.create label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.82rem;
+}
+
+.create input,
+button {
+  font: inherit;
+}
+
+.create input {
+  border: 1px solid #c9bba6;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 16px;
+}
+
+.filters button.active {
+  background: #2b2418;
+  color: #f7f1e6;
+}
+
+article {
+  display: grid;
+  gap: 10px;
+  background: white;
+  padding: 14px;
+  border-radius: 12px;
+  margin: 12px 0;
+}
+
+.meta {
+  display: block;
+  color: #6d6254;
+  font-size: 0.88rem;
+  margin-top: 4px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+button {
+  border: 1px solid #2b2418;
+  background: transparent;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.empty {
+  background: #efe6d4;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+code {
+  font-size: 0.82rem;
+}
